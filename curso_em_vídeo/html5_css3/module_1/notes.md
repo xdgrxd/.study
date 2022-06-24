@@ -2,7 +2,7 @@
 
 Class 1 and 2 are presentation classes.
 
-# Class 3
+# C1 - Class 3
 
 ## References
 
@@ -52,7 +52,7 @@ Class 1 and 2 are presentation classes.
 * HTML5 (Bill Sanders)
 * CSS (Eric Meyer)
 
-# Class 4
+# C1 - Class 4
 
 ## Cold War
 
@@ -87,5 +87,69 @@ Creators: Timothy John Berners-Lee and Team
 
 1980 - 1991 - World Wide Web Development (WWW).
 1990 - First well-accepted communication between an HTTP client and the web server.
-1991 - (Info.cern.ch)[http://Info.cern.ch] was the address of the first website and web server in history.
+1991 - [Info.cern.ch](http://Info.cern.ch) was the address of the first website and web server in history.
 1992 - 1996 - The HTTP/1.0 version was developed between 1992 and 1996 to meet the need to transfer not just text.
+
+# C2 - Class 1
+
+## Data Representation
+
+binary digit = bit
+
+1 byte = 8 bits = Minimum quantity for the representation of a data
+
+Computation works on the basis of 10 (ex.: 2^10).
+
+| 1024 Bytes = 1 KB |
+| 1024 KB = 1 MB |
+| 1024 MB = 1 GB |
+| 1024 GB = 1 TB |
+| 1024 TB = 1 PB |
+| 1024 PB = 1 EB |
+| 1024 EB = 1 ZB |
+| 1024 ZB = 1 YB |
+
+MB -> B -> Bytes
+Mb -> b -> Bits
+
+## How do We Connect?
+
+Computer -> Uses square waves
+Phone Lines -> Uses sine waves
+
+Modulation: Square to Sine
+Demodulation: Sine to Square,
+
+The modem converts these waves and causes the computer's data to be transmitted over the networks and vice versa.
+
+## How do We Access the Servers?
+
+DNS - Domain Name Server.
+
+### Data Route
+
+Client -> Router -> DNS -> Router -> Server -> Client
+
+# C2 - Class 2
+
+## Domain
+
+* Uninque name
+* Anual payment
+* Several TLD's
+
+## Hosting
+
+* Space to store files
+* Monthly payment
+* Space, memory, resources
+
+## URL
+
+https://www.github.com/xdgrxd
+
+https:// -> Protocol
+www -> Sub-domain
+github -> Domain
+.com -> TLD
+/xdgrxd -> Path
