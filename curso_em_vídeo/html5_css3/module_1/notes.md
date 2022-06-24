@@ -100,14 +100,14 @@ binary digit = bit
 
 Computation works on the basis of 10 (ex.: 2^10).
 
-| 1024 Bytes = 1 KB |
-| 1024 KB = 1 MB |
-| 1024 MB = 1 GB |
-| 1024 GB = 1 TB |
-| 1024 TB = 1 PB |
-| 1024 PB = 1 EB |
-| 1024 EB = 1 ZB |
-| 1024 ZB = 1 YB |
+1024 Bytes = 1 KB
+1024 KB = 1 MB
+1024 MB = 1 GB
+1024 GB = 1 TB
+1024 TB = 1 PB
+1024 PB = 1 EB
+1024 EB = 1 ZB
+1024 ZB = 1 YB
 
 MB -> B -> Bytes
 Mb -> b -> Bits
@@ -146,10 +146,104 @@ Client -> Router -> DNS -> Router -> Server -> Client
 
 ## URL
 
-https://www.github.com/xdgrxd
+**https://www.github.com/xdgrxd**
 
 https:// -> Protocol
 www -> Sub-domain
 github -> Domain
 .com -> TLD
 /xdgrxd -> Path
+
+# C3 - Class 1
+
+**HTML - Content**
+
+* Hypertext
+* Markup
+* Language
+
+**CSS - Design**
+
+* Cascading
+* Style
+* Sheets
+
+Javascript - Interaction
+
+## Content in HTML
+
+'<' or '>' - Angle Bracket
+
+**`<h1>Title Example</h1>`**
+
+* `<h1>` - Tag opening
+* Title Example - Content
+* `</h1>`- Tag closure
+
+**`<img src="foto.png" alt ="Photo example">`**
+
+* `<img...` - Tag opening
+* alt= - Parameter
+* "Photo example" - Value
+
+## Style in CSS
+
+h1 {
+    font-familiy: Arial;
+    font-size: 20pt;
+    color: blue;
+}
+
+h1 - Selector
+font-family: Arial; - Declaration
+Arial - Value
+
+## Basic HTML Structure
+
+
+`<!DOCTYPE html>`
+`<html lang="pt-br">`
+` `
+`<head>`
+`    <meta charset="UTF-8">`
+`    <meta http-equiv="X-UA-Compatible" content="IE=edge">`
+`    <meta name="viewport" content="width=device-width, initial-scale=1.0">`
+`    <title>Document</title>`
+`</head>`
+` `
+`<body>`
+` `
+`</body>`
+` `
+`</html>`
+
+# C3 - Class 2
+
+## Front-end - Client-side
+
+* Angular
+* Ember.js
+* Vue.js
+* Svelte.js
+* Backbone.js
+* jQuery
+* Svelte
+* Bootstrap
+
+## Back-end - Server side
+
+* PHP
+* Node.js
+* C#
+* Python
+* Ruby
+* Java
+
+## Full stack - Comprehensive knowledge of both.
+
+# C4 - Class 1
+
+Install:
+
+* Google Chrome
+* Visual Studio Code
