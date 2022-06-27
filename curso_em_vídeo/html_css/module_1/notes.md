@@ -247,3 +247,8 @@ Install:
 
 * Google Chrome
 * Visual Studio Code
+
+Active "Word Wrap" in VS Code.
+Active "Auto Save" in VS Code.
+
+# C4 - Class 2
