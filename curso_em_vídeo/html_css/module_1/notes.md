@@ -251,4 +251,10 @@ Install:
 Active "Word Wrap" in VS Code.
 Active "Auto Save" in VS Code.
 
-# C4 - Class 2
+# C8 - Class 1
+
+## Semantics
+
+Semantics is the study of the meaning and interpretation of words. Applying this to HTML means better understanding of HTML for the computer.
+
+Before HTML5, only divs were used to divide contents and classes to stylize, without counting on the computer's own understanding to “understand” HTML.
