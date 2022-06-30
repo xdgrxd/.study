@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamic Images</title>
+</head>
+
+<body>
+
+    <h1>Dinamic Image</h1>
+    <p>Zoom in and out of the browser screen, or view on another device.</p>
+
+    <!--
+        Source Command: 'source:media:type + Enter Key'
+    -->
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/red-500x500.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/yellow-700x700.png" type="image/png">
+        <img src="images/green-1000x1000.png" alt="green_flex_image">
+    </picture>
+
+    <!--
+        *The descending order (bottom to top) must be respected to work properly.
+
+        max-width = The source is only active as long as the width value does not exceed the maximum.
+
+        min-width = The source is only active when the value reaches the minimum.
+    -->
+
+    <br>
+
+    <a href="../../module_1/">Back</a>
+
+</body>
+
+</html>
