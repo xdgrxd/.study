@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight: 400;
+}
+
+h1 {
+    background-color: greenyellow;
+    color: black;
+}
+
+h2 {
+    background-color: aqua;
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: rgb(0, 255, 0);
+}
