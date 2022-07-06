@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+
+Warning
+
+It is essential to insert the single quotes ('') around the terms in parentheses for the @font-face rule to work.
+
+*/
+
+@font-face {
+    font-family: 'abc';
+    src: url('fonts/Daniella/Daniella.otf') format('opentype'), url('fonts/Daniella/Daniella.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tactico';
+    src: url('fonts/Tactico/Tactico-Grunge.otf') format('opentype');
+}
+
+/*
+
+Formats:
+
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
+
+*/
+
+h1 {
+    font-family: 'abc';
+}
+
+p {
+    font-family: 'Tactico', Helvetica, Arial, sans-serif;
+}

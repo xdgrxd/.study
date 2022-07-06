@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+
+Absolute Measures
+
+cm
+mm
+in
+px
+pt (don't use for web development)
+pc (don't use for web development)
+
+
+Relative Measures
+
+em, ex, rem, vw, vh, %.
+
+
+Browser default font size: 16px
+Use 'px' and 'em' in web development.
+
+*/
+
+h1, h2 {
+    font-size: 2em;
+}

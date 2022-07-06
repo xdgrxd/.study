@@ -1,0 +1,19 @@
+@charset "UTF8";
+
+div {
+    margin: 20px 0;
+}
+
+div#n1 {
+    background-image: linear-gradient(to right, rgb(241, 71, 71), rgb(245, 153, 68));
+    color: white;
+    font-family: Helvetica, sans-serif, Arial;
+    height: 100px;
+}
+
+div#n2 {
+    background-image: linear-gradient(45deg, #3198e2, #6d59c0, #893590, #e33f5f, #fdd579);
+    color: white;
+    font-family: Helvetica, sans-serif, Arial;
+    height: 100px;
+}
