@@ -53,10 +53,14 @@
 * [What Font Is](https://www.whatfontis.com/)
 
 # C16 - Class 1
+
 ## box-level
+
 * Occupies 100% of the width.
 * Line breaks when inserted.
+
 ### Tags
+
 `<div>`
 `<h1> - <h6>`
 `<p>`
@@ -68,9 +72,12 @@
 `<footer>`
 `<form>`
 `<video>`
+
 ## inline-level
+
 * Don't Occupies 100% of the width.
 * Don't break the line when inserted.
+
 ### Tags
 `<span>`
 `<a>`
@@ -83,3 +90,7 @@
 `<button>`
 `<input>`
 `<select>`
+
+# C16 - Class 2
+
+'user agent' in DevTools is the browser.

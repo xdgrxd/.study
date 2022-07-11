@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+  font-family: Helvetica;
+}
+
+h1 {
+  background-color: rgb(180, 180, 180);
+  color: white;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: auto;
+  border-radius: .4em;
+  border: .1em solid black;
+}
+
+p > a {
+  background-color: aqua;
+  border: .15em dotted black;
+  border-radius: .5em;
+  padding: .1em .5em;
+
+  /* 
+
+  white-space: nowrap; -> Break Line Block
+
+  */
+
+}
