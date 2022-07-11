@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+body {
+    background-color: crimson;
+    font-family: Helvetica, Arial, Sans-serif;
+    color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: black;
+}
+
+/*
+
+'#title1' or 'h2#title1'.
+
+*/
+
+#title1 {
+    color: rgb(251, 255, 1);
+}
+
+/*
+
+'.beautiful-subtitle' or 'h2.beautiful-subtitle'.
+
+*/
+
+.beautiful-subtitle {
+    color: rgb(72, 255, 0);
+}
+
+/*
+
+1. Do not use the same ID for more than one element on the same page.
+2. Use IDs for snippet identifiers or JavaScript hooks.
+
+*/
+
+.title2 {
+    background-color: rgb(2, 228, 228);
+}
+
+.title3 {
+    background-color: rgb(216, 23, 152);
+}
+
+.title4 {
+    background-color: rgb(47, 0, 255);
+}
+
+.title5 {
+    background-color: rgb(82, 221, 18);
+}
+
+.title6 {
+    background-color: rgb(224, 122, 26);
+}
+
+.title7 {
+    background-color: rgb(30, 216, 114);
+}
