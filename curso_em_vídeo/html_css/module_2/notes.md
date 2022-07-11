@@ -51,3 +51,35 @@
 
 * [What The Font | MyFonts](https://www.myfonts.com/pages/whatthefont)
 * [What Font Is](https://www.whatfontis.com/)
+
+# C16 - Class 1
+## box-level
+* Occupies 100% of the width.
+* Line breaks when inserted.
+### Tags
+`<div>`
+`<h1> - <h6>`
+`<p>`
+`<main>`
+`<header>`
+`<nav>`
+`<article>`
+`<aside>`
+`<footer>`
+`<form>`
+`<video>`
+## inline-level
+* Don't Occupies 100% of the width.
+* Don't break the line when inserted.
+### Tags
+`<span>`
+`<a>`
+`<code>`
+`<small>`
+`<strong>`
+`<em>`
+`<sup> - <sub>`
+`<label>`
+`<button>`
+`<input>`
+`<select>`

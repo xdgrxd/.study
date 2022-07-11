@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    width: 600px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    background-color: rgb(185, 185, 185);
+    color: white;
+    display: inline-block;
+    border-radius: .4em;
+
+    padding: .5em;
+    margin: 1em 0em;
+    border: .1em solid black;
+    outline: .1em solid rgb(255, 47, 203);
+}
