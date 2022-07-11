@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    width: 600px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(255, 11, 174);
+}
+
+a::before {
+    content: '🔗';
+}
+
+a::after {
+    content: ' ⬅️';
+}
+
+/*
+
+Pseudo-classes ':'
+Pseudo-elements '::'
+Children '>'
+
+*/
