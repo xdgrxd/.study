@@ -243,3 +243,6 @@ Active "Auto Save" in VS Code.
 Semantics is the study of the meaning and interpretation of words. Applying this to HTML means better understanding of HTML for the computer.
 
 Before HTML5, only divs were used to divide contents and classes to stylize, without counting on the computer's own understanding to “understand” HTML.
+
+
+/ End /

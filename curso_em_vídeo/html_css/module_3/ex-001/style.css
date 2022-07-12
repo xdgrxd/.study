@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div.square {
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: .3em;
+    background-color: rgb(206, 206, 206);
+    width: 150px;
+    height: 150px;
+}
+
+div#s1 {
+    background-color: rgb(100, 100, 236);
+}
+
+div#s2 {
+    background-image: linear-gradient(90deg, rgb(210, 70, 245), rgb(255, 65, 239));
+}
+
+div#s3 {
+    background-image: url(../images/wallpaper001.jpg);
+}
