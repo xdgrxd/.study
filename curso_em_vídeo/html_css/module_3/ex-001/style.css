@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+    background-image: url(../images/pattern003.png);
+}
+
 div.square {
     display: inline-block;
     border: 2px solid rgb(0, 0, 0);
@@ -10,11 +14,11 @@ div.square {
 }
 
 div#s1 {
-    background-color: rgb(100, 100, 236);
+    background-color: #0044ff;
 }
 
 div#s2 {
-    background-image: linear-gradient(90deg, rgb(210, 70, 245), rgb(255, 65, 239));
+    background-image: linear-gradient(135deg, #f15bb5, #5de0e5);
 }
 
 div#s3 {
