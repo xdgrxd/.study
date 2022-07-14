@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    background-image: url(../images/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+
+    /* TRICK: cover + fixed (see the code) */
+
+    /*
+    background: white url(../images/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    */
+}
+
+/*
+
+Shorthand:
+
+color > image > position > repeat > [size] > attachment
+
+*/
+
+main {
+    margin: auto;
+    max-width: 600px;
+    background-color: white;
+    padding: 1em 2em;
+    margin: 5em auto;
+    border-radius: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
