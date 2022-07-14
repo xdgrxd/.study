@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
 body {
-    height: 97vh;
-    background-image: url(../images/wallpaper001.jpg);
-    background-size: 100px;
+    height: 98vh;
+    background-image: url(../images/wallpaper003.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
 }
+
+/*
+
+The background-position is the anchorage point image. 
+
+*/
