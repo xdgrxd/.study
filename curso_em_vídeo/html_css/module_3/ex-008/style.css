@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url(images/8bbbed91101209.5e28b6f765fc0.jpg);
+    background-position: 45em center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #ff8bb7;
+    text-align: center;
+    padding: 1em 0;
+    min-width: 200px;
+    position: relative;
+    z-index: 5;
+}
+
+main {
+    min-width: 200px;
+    max-width: 750px;
+    margin: auto;
+    padding: 2em 2.5em 5em 2.5em;
+    box-shadow: 0 0 2em .2em rgba(0, 0, 0, 0.438);
+    background-color: white;
+    position: relative;
+    z-index: 4;
+}
+
+header h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #BF698A;
+    font-size: 1.8em;
+    margin-top: 0.75em;
+}
+
+main h3 {
+    padding: 0.2em 0 0 0;
+    color: #80465C;
+    font-size: 1.2em;
+}
+
+main p {
+    padding: 1em 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4em;
+    /*
+    font-size: 2vw; (Adaptative width.)
+    */
+    text-align: justify;
+    width: 100%;
+    size: 100%;
+    color: #806C74;
+}
+
+section#letter-music {
+    max-width: 600px;
+    min-width: 200px;
+    margin: 2.5em 0;
+}
+
+footer p {
+    text-align: center;
+    padding: 2em 0;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 a:visited {
+    color: #BF698A;
+}
+
+h3 a {
+    color: #80465C;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+iframe {
+    width: 100%;
+}
