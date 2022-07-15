@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#container {
+    position: relative; /* All box are naturally relative. */
+    height: 94vh;
+    padding: 10px;
+    background: url(../images/target001.png) center center purple;
+    background-size: 100% 100%;
+}
+
+#content {
+    height: 200px;
+    width: 400px;
+    background: url(../images/target001.png) center center yellow;
+    background-size: 100% 100%;
+
+    /* Vertical allign. */
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+}
