@@ -75,13 +75,17 @@ section#letter-music {
 
 footer p {
     text-align: center;
-    padding: 2em 0;
+    padding: 1.5em 0;
     background-color: black;
     color: white;
 }
 
 a {
     text-decoration: none;
+}
+
+h2 a {
+    color: #BF698A;
 }
 
 h2 a:visited {
@@ -91,6 +95,11 @@ h2 a:visited {
 h3 a {
     color: #80465C;
 }
+
+h3 a:visited {
+    color: #80465C;
+}
+
 
 a:hover {
     text-decoration: underline;
