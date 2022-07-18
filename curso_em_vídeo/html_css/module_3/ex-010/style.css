@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+    min-width: 200px;
+}
+
+td {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 8px;
+
+    text-align: center; /* Horizontal Align | center / left / right*/
+
+    vertical-align: auto; /* Vertical Align | top / middle / bottom*/
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.pink {
+    background-color: deeppink;
+}
+
+.right {
+    text-align: right;
+    font-weight: bolder;
+}
