@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    max-width: 600px;
+    min-width: 200px;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 2em auto;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1em;
+    width: 50px;
+    text-align: center;
+}
