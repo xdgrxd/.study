@@ -11,6 +11,7 @@ body {
 table {
     border-collapse: collapse;
     margin: auto;
+    position: relative;
 }
 
 th {
@@ -27,6 +28,11 @@ td {
     height: 25px;
     text-align: center;
     border: 1px solid black;
+}
+
+thead th {
+    position: sticky;
+    top: -1px;
 }
 
 /* Zebra Effect (n) \/ */
