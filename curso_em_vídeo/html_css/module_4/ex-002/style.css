@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    margin: auto;
+    max-width: 600px;
+}
+
+iframe {
+    border-radius: .5em;
+    display: block;
+    margin: auto;
+}
