@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Javascript</title>
+    </head>
+    <body>
+        <button onclick="rightclick()">Click Here</button>
+        <div id="maindiv"></div>
+
+        <script>
+            function rightclick() {
+                s = window.document.getElementById("maindiv")
+                s.innerHTML += '<p>Hello :)</p>'
+            }
+
+        </script>
+    </body>
+</html>

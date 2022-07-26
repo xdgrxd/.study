@@ -3,31 +3,49 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css">
-        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <title>srcdoc=""</title>
     </head>
     <body>
         <h1>Make a Choose</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
             ratione, facilis, laudantium odio laborum excepturi iste praesentium
-            iure impedit assumenda nulla distinctio unde ad in, quos commodi quo
-            nisi! Velit.
+            iure impedit assumenda nulla distinctio unde ad in, quos commodi
+            quonisi! Velit.
         </p>
 
         <ul>
             <li><a href="page-003.html" target="frame">First page</a></li>
             <li><a href="page-004.html" target="frame">Second page</a></li>
             <li><a href="page-005.html" target="frame">Third page</a></li>
+            <li><a href="page-006.html" target="frame">Form</a></li>
+            <li><a href="page-007.html" target="frame">Button</a></li>
         </ul>
 
-        <iframe id="screen" srcdoc="" name="frame">
+        <!--
+            Use sandbox="" and referrerpolicy="" to keep your site more secure.
+
+            sandbox
+
+            'allow + ...'
+        -->
+
+        <iframe
+            id="screen"
+            srcdoc="<h1>Hello, World!</h1>"
+            name="frame"
+            sandbox=""
+            referrerpolicy="no-referrer"
+        >
             <p>Unfortunately your browser does not support iframe :(</p>
         </iframe>
 
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa non fuga minima vitae odio! Iure perferendis ut necessitatibus? Reiciendis obcaecati temporibus ipsam et delectus quas nostrum officia dolores non totam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa non
+            fuga minima vitae odio! Iure perferendis ut necessitatibus?
+            Reiciendis obcaecati temporibus ipsam et delectus quas nostrum
+            officia dolores non totam.
         </p>
-
     </body>
 </html>
