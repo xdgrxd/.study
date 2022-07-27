@@ -27,5 +27,13 @@ section#smartphone {
     height: 500px;
     width: 312.8px;
     background-color: black;
-    background: url('../images/Sem\ título-1.png') no-repeat;
+    background: url('../images/iphonexr.png') no-repeat center center;
+}
+
+iframe#screen {
+    position: relative;
+    top: 24px;
+    left: 49px;
+    width: 208px;
+    height: 450px;
 }
