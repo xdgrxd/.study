@@ -55,7 +55,6 @@ section#social-icons svg {
 }
 
 section#social-icons div {
-    box-shadow: 0 0 .5em 0em rgba(0, 0, 0, 0.212);
     display: inline-block;
     background-color: #ff006e;
     text-align: center;
@@ -67,5 +66,5 @@ section#social-icons div {
 section#social-icons div:hover {
     cursor: pointer;
     transition: .2s;
-    background-color: hsl(334, 100%, 63%)5
+    background-color: hsl(334, 100%, 60%);
 }
