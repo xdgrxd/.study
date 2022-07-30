@@ -3,17 +3,26 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" />
         <title>Document</title>
     </head>
     <body>
-        <h1>
-            My First Form
-        </h1>
-        <form>
-            <p>Name: <input type="text" name="first-name" id="first-name"></p>
-            <p>Last name: <input type="text" name="last-name" id="last-name"></p>
-            <p><input type="submit" value="Send"></p>
+        <h1>My First Form</h1>
+
+        <!--
+            Label is important.
+        -->
+
+        <form action="register.php" autocomplete="off">
+            <p>
+                <label for="ifirst-name">Name:</label>
+                <input type="text" name="first-name" id="ifirst-name" />
+            </p>
+            <p>
+                <label for="ilast-name">Last name: </label>
+                <input type="text" name="last-name" id="ilast-name" />
+            </p>
+            <p><input type="submit" value="Send" /></p>
         </form>
     </body>
 </html>
